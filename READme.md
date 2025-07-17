@@ -30,6 +30,9 @@ Both models were trained in the same environment (**Google Colab with a Tesla T4
 | **RT-DETRv2** | **52.37** | **35.07** | 103.43            | **Best for performance, accuracy, and speed.** |
 | YOLOv12     | 51.88            | 52.24            | **88.55** | Best for resource-constrained environments.  |
 
+Comparison Graph:
+<img src="https://raw.githubusercontent.com/kiuyha/Aerial-Thermal-Detection-RT-DETRv2-and-YOLOv12/refs/heads/main/Graph%20comparison.png">
+
 For SAR missions where every detection and every second counts, **RT-DETRv2 is the highly recommended model** due to its superior accuracy and lower real-world latency.
 
 -----
