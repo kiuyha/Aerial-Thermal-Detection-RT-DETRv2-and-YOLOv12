@@ -22,6 +22,8 @@ The models were trained on a dataset derived from the **HIT-UAV infrared thermal
 -----
 
 ## Model Performance 📊
+Example Results:
+<img src="https://raw.githubusercontent.com/kiuyha/Aerial-Thermal-Detection-RT-DETRv2-and-YOLOv12/refs/heads/main/Example%20result.png">
 
 Both models were trained in the same environment (**Google Colab with a Tesla T4 GPU**). Below is a summary of their performance on the test set.
 
