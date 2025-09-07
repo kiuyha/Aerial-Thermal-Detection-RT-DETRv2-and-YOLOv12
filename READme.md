@@ -6,7 +6,7 @@ The models were trained on a custom-processed version of the HIT-UAV dataset.
 
 ## Dataset Information 📚
 
-The models were trained on a dataset derived from the **HIT-UAV infrared thermal dataset**.
+The models were trained on a dataset derived from the **HIT-UAV infrared thermal dataset**. You can check the preprocessed dataset [here](https://huggingface.co/datasets/Kiuyha/hit-uav-thermal-human-detection).
 
   * **Source Dataset**: Contained over 2,800 thermal images from a UAV perspective.
   * **Preprocessing & Augmentation**: The raw data was standardized through a rigorous preprocessing pipeline:
@@ -42,6 +42,13 @@ For SAR missions where every detection and every second counts, **RT-DETRv2 is t
 ## Getting Started 🚀
 
 You can download the trained model weights (`.pt` files) from this repository.
+
+The pre-trained models are available for download from the Hugging Face Hub. This keeps the repository lightweight and easy to clone.
+
+### Download Models
+
+*  **[RT-DETRv2 (`best.pt`)](https://huggingface.co/Kiuyha/rtdetrv2-human-detection-thermal-uav/resolve/main/best.pt)**
+* **[YOLOv12 (`best.pt`)](https://huggingface.co/Kiuyha/yolov12-human-detection-thermal-uav/resolve/main/best.pt)**
 
 ### Prerequisites
 
