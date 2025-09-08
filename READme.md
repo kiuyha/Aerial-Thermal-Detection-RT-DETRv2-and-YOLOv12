@@ -1,6 +1,8 @@
-# Pre-trained Models for Human Detection in Thermal UAV Imagery
+# Models for Human Detection in Thermal UAV Imagery
 
-This repository provides two pre-trained object detection models, **RT-DETRv2** and **YOLOv12**, for identifying people in thermal images captured by Unmanned Aerial Vehicles (UAVs). These models are optimized for Search and Rescue (SAR) applications where accuracy and speed are critical.
+You can try out using this demo [here](https://huggingface.co/spaces/Kiuyha/Aerial-Thermal-SAR-Detection-Demo).
+
+This repository provides two object detection models, **RT-DETRv2** and **YOLOv12**, for identifying people in thermal images captured by Unmanned Aerial Vehicles (UAVs). These models are optimized for Search and Rescue (SAR) applications where accuracy and speed are critical.
 
 The models were trained on a custom-processed version of the HIT-UAV dataset.
 
